@@ -7,7 +7,7 @@ import Main from "./pages/Main/Main";
 import MyPage from "./pages/MyPage";
 import WishList from "./pages/WishList";
 import Product from "./pages/Product";
-import All from './pages/All';
+// import All from './pages/All';s
 import Join from './pages/Join';
 import Login from './pages/Login';
 // import ProductDetail from "./pages/ProductDetail";
@@ -25,7 +25,6 @@ function App() {
           <Route exact path="/wishList" component={WishList} />
           <Route exact path="/product" component={Product} />
           <Route exact path="/prouct/:detail" component={Product} />
-          <Route exact path="/all" component={All} />
         </Switch>
       </div>
     </Router>

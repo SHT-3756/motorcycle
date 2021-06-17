@@ -3,7 +3,8 @@ import {Nav, NavLink, Bars, NavBtn, NavBtnLink} from './HeaderElement';
 import {GiFullMotorcycleHelmet} from 'react-icons/gi';
 import { BiKey }from 'react-icons/bi';
 import {FaMotorcycle} from 'react-icons/fa';
-import { RiOilFill } from 'react-icons/ri';
+import ModalFunction from '../ModalFunction';
+// import { RiOilFill } from "react-icons/ri";
 function Header() {
     return (
         <Nav>
@@ -19,9 +20,9 @@ function Header() {
                 <NavBtnLink to="myPage">
                 <GiFullMotorcycleHelmet />
                 </NavBtnLink>
-                <NavBtnLink to="/all">
-                <RiOilFill />
-                </NavBtnLink>
+                {/* <NavBtnLink to="/all"> */}
+                <ModalFunction />
+                {/* </NavBtnLink> */}
             </NavBtn>
         </Nav>
     )

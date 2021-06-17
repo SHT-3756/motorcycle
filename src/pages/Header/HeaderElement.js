@@ -34,7 +34,7 @@ export const Bars = styled(FaBars)`
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
-        top: 10px;
+        top: 3px;
         right: 0px;
         transform: translate(-100%, 75%);
         font-size: 1.8rem;
@@ -67,8 +67,14 @@ export const NavBtnLink = styled(Link)`
     &:nth-child(3):hover{
         color: #fff970;
     }
-    &:nth-child(4):hover{
-        color: #afff62;
-    }
+`
+
+export const ModalFunction = styled.button`
+display: flex;
+font-size: 30px;
+margin-left: 35px;
+cursor: pointer;
+text-decoration: none;
+color: #fff;
 `
 
